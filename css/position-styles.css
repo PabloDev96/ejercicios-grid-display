@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.title-container {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+}
+
+.main {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+[class^="container"] {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 40px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.container1 {
+    position: relative;
+}
+
+.container2 {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+
+.container3 {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.container4,
+.container5,
+.container6 {
+    position: relative;
+}
